@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+#header {
+  background: Turquoise;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: rgb(62, 62, 164);
+  font-size: 40px;
+}
+.link {
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}

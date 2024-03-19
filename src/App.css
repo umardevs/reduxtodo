@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 190px;
 }
-
-.App-link {
-  color: #61dafb;
+.home input {
+  padding: 15px;
+  height: 30px;
+  width: 450px;
+  border-radius: 3px;
+  border-color: initial;
+  color: blue;
+  font-size: 23px;
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home button {
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(62, 62, 164);
+  color: wheat;
+  font-size: 22px;
+  margin-top: 45px;
+}
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
+}
+.client img {
+  width: 320px;
+  border-radius: 8px;
+}
+.client h1 {
+  color: rgb(62, 62, 164);
+  font-size: 28px;
+  font-weight: 800;
+}
+.client span {
+  font-size: 28px;
+  color: rgb(62, 62, 164);
+}
+.delete {
+  font-size: 29px;
+  color: red;
+  margin-left: 10px;
+  padding-top: 12px;
+  position: relative;
+  top: 4px;
+}
+.black {
+  background: Turquoise;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto 0;
+  margin: 10px 0;
+}
+.edit {
+  font-size: 25px;
+  color: green;
 }
